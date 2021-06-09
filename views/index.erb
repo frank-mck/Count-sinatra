@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Count</title>
+  </head>
+  <body>
+    <form action="/increment" method="post">
+      <input type="submit" value="Increment">
+    </form>
+    <form action='/decrement' method="post">
+      <input type="submit" value ="Decrement">
+      </form>
+    <div id="count"><%= @counter.count %></div>
+  </body>
+</html>
+<style>
+body {
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  justify-content: center;
+  margin-top: 3rem;
+}
+
+input {
+  margin: 20px;
+  width: 200px; 
+  padding: 10px;
+  border-radius: 5px; 
+}
+</style>
