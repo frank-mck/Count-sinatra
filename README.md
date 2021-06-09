@@ -1,6 +1,7 @@
 # Count-sinatra
 
-## Description
+## Description
+
 This is a counter web app built in Ruby using Sinatra and Capybara.
 
 ## How to run the app
